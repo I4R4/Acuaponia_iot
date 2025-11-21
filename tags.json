@@ -1,0 +1,64 @@
+{
+  "tagType": "Provider",
+  "name": "",
+  "tags": [
+    {
+      "name": "sim",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "valueSource": "opc",
+          "dataType": "Float8",
+          "name": "nh3",
+          "defaultValue": 0.0,
+          "value": 0.0,
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "memory",
+          "dataType": "Float4",
+          "name": "oxigeno",
+          "defaultValue": 0.0,
+          "value": 0.0,
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "dataType": "Float4",
+          "name": "TDS",
+          "value": 0.0,
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "dataType": "Float4",
+          "name": "nivel_agua",
+          "defaultValue": 0.0,
+          "value": 0.0,
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "dataType": "Float4",
+          "name": "temperatura",
+          "defaultValue": 0.0,
+          "value": 0.0,
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "dataType": "Float4",
+          "name": "ph",
+          "defaultValue": 0.0,
+          "value": 0.0,
+          "tagType": "AtomicTag"
+        }
+      ]
+    },
+    {
+      "name": "_types_",
+      "tagType": "Folder"
+    }
+  ]
+}
